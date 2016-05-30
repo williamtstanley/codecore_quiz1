@@ -6,7 +6,7 @@ module HelperMethods
 
     def titleize(string)
         words = string.split
-        (words.map {|word| words.index(word) != 0 && (word == "in" || word == "the" ||  word == "of" || word == "and" || word == "or" || word == "from" || word == "is") ? word : word.capitalize}).join(" ")
+        (words.map {|word| words.index(word) != 0 && (word == "in" || word == "the" ||  word == "of" || word == "and" || word == "or" || word == "from" || word == "is" || word == "a") ? word : word.capitalize}).join(" ")
     end
 
 end
