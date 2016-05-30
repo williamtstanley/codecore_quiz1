@@ -28,9 +28,9 @@ end
 
 
 c = ClassTheFirst.new
-c.is_prime?(9)
+p c.prime?(9)
 
-ClassTheSecond.is_prime(9)
+p ClassTheSecond.prime?(9)
 #
 # extend adds method as a class method
 # include allows instances of class to use the method
